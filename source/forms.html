@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kritiq</title>
+    <link rel="stylesheet" href="../style/style1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<header>
+  <main>
+    <nav class="navbar navbar-dark bg-dark" aria-label="Dark offcanvas navbar">
+      <div class="container-fluid">
+        <img src="../media/kritiq Background Removed.png" alt="kritiq logo" style="height: 50px; width: 50px;">
+        <a class="navbar-brand" href="#">Kritiq</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarDark" aria-controls="offcanvasNavbarDark">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbarDark" aria-labelledby="offcanvasNavbarDarkLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarDarkLabel">Menu</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="forms.html">Forms</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Profile
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://demo4529.auth.us-east-1.amazoncognito.com/login?client_id=lhrmjqjqs3b6h4n4i9nh0dbvl&response_type=code&scope=email+openid+phone&redirect_uri=https%3A%2F%2Fwww.srmist.edu.in%2F">Sign In</a></li>
+                  
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="https://demo4529.auth.us-east-1.amazoncognito.com/signup?client_id=lhrmjqjqs3b6h4n4i9nh0dbvl&response_type=code&scope=email+openid+phone&redirect_uri=https%3A%2F%2Fwww.srmist.edu.in%2F">Create Account</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            <div style=" position: absolute;bottom: 15px; width:90%">
+              <hr>
+
+<strong>© 2023 Kritiq</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </main>  
+</header>
+<body>
+  <br>
+  <h1>Explore 🧭</h1>
+<br>
+<div id="feedpost">
+<h2>Feedback Title</h2>
+ <form action="" method="get">
+  <label>Quality</label>
+  <input type="range" name="" id="" min="0" max="5" step="1" value="0" class="slider" onchange="updateTextInput(this.value);"> <input type="text" id="sliderval" value="" class="slideval">
+  <br>
+  <label>Quanity</label>
+  <input type="range" name="" id="" min="0" max="5" step="1" value="0" class="slider"onchange="updateTextInput1(this.value);"> <input type="text" id="sliderval1" value=" "class="slideval">
+  <br>
+  <label>Quality</label>
+  <input type="range" name="" id="" min="0" max="5" step="1" value="0" class="slider"onchange="updateTextInput2(this.value);"><input type="text" id="sliderval2" value=""class="slideval">
+<br>
+ <label>Pricing</label>
+ <input type="range" name="" id="" min="0" max="5" step="1" value="0" class="slider"onchange="updateTextInput3(this.value);"><input type="text" id="sliderval3" value=""class="slideval">
+       
+<br>
+        <label> Comment</label>
+        <textarea name="" id="" cols="30" rows="5" style="resize: none;"></textarea>
+<br>
+<br>
+        <input type="submit" value="Rate" id="submitbtn">
+        <input type="reset" value="Reset" id="resetbtn">
+ </form>
+</div>
+<br>
+<br>
+<div id="feedpost">
+  <h2>Feedback Title</h2>
+   <form action="" method="get">
+    <label>Quality</label>
+    <input type="range" name="" id="" min="0" max="5" step="1" value="0" class="slider" onchange="updateTextInput(this.value);"> <input type="text" id="sliderval" value="" class="slideval">
+    <br>
+    <label>Quanity</label>
+    <input type="range" name="" id="" min="0" max="5" step="1" value="0" class="slider"onchange="updateTextInput1(this.value);"> <input type="text" id="sliderval1" value=" "class="slideval">
+    <br>
+    <label>Quality</label>
+    <input type="range" name="" id="" min="0" max="5" step="1" value="0" class="slider"onchange="updateTextInput2(this.value);"><input type="text" id="sliderval2" value=""class="slideval">
+  <br>
+   <label>Pricing</label>
+   <input type="range" name="" id="" min="0" max="5" step="1" value="0" class="slider"onchange="updateTextInput3(this.value);"><input type="text" id="sliderval3" value=""class="slideval">
+         
+  <br>
+          <label> Comment</label>
+          <textarea name="" id="" cols="30" rows="5" style="resize: none;"></textarea>
+  <br>
+  <br>
+          <input type="submit" value="Rate" id="submitbtn">
+          <input type="reset" value="Reset" id="resetbtn">
+   </form>
+  </div>  
+<br>
+<br>
+<div id="feedpost">
+  <h2>Feedback Title</h2>
+   <form action="" method="get">
+    <label>Quality</label>
+    <input type="range" name="" id="" min="0" max="5" step="1" value="0" class="slider" onchange="updateTextInput(this.value);"> <input type="text" id="sliderval" value="" class="slideval">
+    <br>
+    <label>Quanity</label>
+    <input type="range" name="" id="" min="0" max="5" step="1" value="0" class="slider"onchange="updateTextInput1(this.value);"> <input type="text" id="sliderval1" value=" "class="slideval">
+    <br>
+    <label>Quality</label>
+    <input type="range" name="" id="" min="0" max="5" step="1" value="0" class="slider"onchange="updateTextInput2(this.value);"><input type="text" id="sliderval2" value=""class="slideval">
+  <br>
+   <label>Pricing</label>
+   <input type="range" name="" id="" min="0" max="5" step="1" value="0" class="slider"onchange="updateTextInput3(this.value);"><input type="text" id="sliderval3" value=""class="slideval">
+         
+  <br>
+          <label>Comment</label>
+          <textarea name="" id="" cols="30" rows="5" style="resize: none;"></textarea>
+  <br>
+  <br>
+          <input type="submit" value="Rate" id="submitbtn">
+          <input type="reset" value="Reset" id="resetbtn">
+   </form>
+  </div>
+<br>
+<br>
+<div id="feedpost">
+  <h2>Feedback Title</h2>
+   <form action="" method="get">
+    <label>Quality</label>
+    <input type="range" name="" id="" min="0" max="5" step="1" value="0" class="slider" onchange="updateTextInput(this.value);"> <input type="text" id="sliderval" value="" class="slideval">
+    <br>
+    <label>Quanity</label>
+    <input type="range" name="" id="" min="0" max="5" step="1" value="0" class="slider"onchange="updateTextInput1(this.value);"> <input type="text" id="sliderval1" value=" "class="slideval">
+    <br>
+    <label>Quality</label>
+    <input type="range" name="" id="" min="0" max="5" step="1" value="0" class="slider"onchange="updateTextInput2(this.value);"><input type="text" id="sliderval2" value=""class="slideval">
+  <br>
+   <label>Pricing</label>
+   <input type="range" name="" id="" min="0" max="5" step="1" value="0" class="slider"onchange="updateTextInput3(this.value);"><input type="text" id="sliderval3" value=""class="slideval">
+         
+  <br>
+          <label> Comment</label>
+          <textarea name="" id="" cols="30" rows="5" style="resize: none;"></textarea>
+  <br>
+  <br>
+          <input type="submit" value="Rate" id="submitbtn">
+          <input type="reset" value="Reset" id="resetbtn">
+   </form>
+  </div>
+<br>
+<br>
+
+<center><h4>Loading......</h4></center>
+
+<script>
+  function updateTextInput(val) {
+    document.getElementById('sliderval').value=val; 
+  }
+  function updateTextInput1(val) {
+    document.getElementById('sliderval1').value=val; 
+  }
+  function updateTextInput2(val) {
+    document.getElementById('sliderval2').value=val; 
+  }
+  function updateTextInput3(val) {
+    document.getElementById('sliderval3').value=val; 
+  }
+</script>
+
+</div>
+
+    
+</body>
+</html>
