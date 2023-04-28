@@ -1,0 +1,69 @@
+[	
+{		
+"name": "Hyundai",		
+"inputs": [			
+    { "label": "Car Name", "type": "text" },			
+    { "label": "Car Model", "type": "text" },
+    {"label": "Rating", "type": "text"}		
+]
+	},
+	{
+		"name": "Apple",
+		"inputs": [
+			{ "label": "Phone Name", "type": "text" },
+			{ "label": "Phone Model", "type": "text" },
+            { "label": "Rating", "type": "text" }
+		]
+	},
+    {
+		"name": "Samsung",
+		"inputs": [
+			{ "label": "Phone Name", "type": "text" },
+			{ "label": "Phone Model", "type": "text" },
+            { "label": "Rating", "type": "text" }
+		]
+	},
+    {
+		"name": "Xiaomi",
+		"inputs": [
+			{ "label": "Phone Name", "type": "text" },
+			{ "label": "Phone Model", "type": "text" },
+            { "label": "Rating", "type": "text" }
+		]
+	},
+    {		
+        "name": "Honda",		
+        "inputs": [			
+            { "label": "Car Name", "type": "text" },			
+            { "label": "Car Model", "type": "text" },
+            {"label": "Rating", "type": "text"}		
+        ]
+            }
+    ,
+    {
+		"name": "Oppo",
+		"inputs": [
+			{ "label": "Phone Name", "type": "text" },
+			{ "label": "Phone Model", "type": "text" },
+            { "label": "Rating", "type": "text" }
+		]
+	},
+    {		
+"name": "Mercedes",		
+"inputs": [			
+    { "label": "Car Name", "type": "text" },			
+    { "label": "Car Model", "type": "text" },
+    {"label": "Rating", "type": "text"}		
+]
+	}
+    ,
+    {		
+        "name": "Ferrari",		
+        "inputs": [			
+            { "label": "Car Name", "type": "text" },			
+            { "label": "Car Model", "type": "text" },
+            {"label": "Rating", "type": "text"}		
+        ]
+            }
+    
+]
